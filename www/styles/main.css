@@ -1,0 +1,115 @@
+/*
+@font-face {
+    font-family: 'dinpro';
+    src: url('../fonts/YOUR_FONT_NAME.otf');
+}
+*/
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-mos-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*
+::-webkit-scrollbar {
+    display: none;
+}*/
+
+.gameUnit {
+	/* this class is used in the JavaScript to define things in
+	game units witch is screen area divided by something.
+	i think i may change my mind but i think it will take
+	the computed style of width: and height: and use those as game units */
+}
+.scaleDiv	{
+	position: absolute;
+}
+.scaleImgs {
+
+}
+
+#beamSvg{
+	width: 160px;
+	height: 15px;
+	/* margin-left: -50%;
+	padding-bottom: -50%; */
+}
+#beam {
+	transform-origin: center center;
+	width: 160px;
+	height: 15px;
+
+	/* transform: rotate(-30deg); */
+}
+
+#baseSvg {
+	position: absolute;
+	top: -12px;
+}
+
+#gameCotain {
+	position: absolute;
+
+}
+
+#scale{
+	width: 0px;
+	/* transform-origin: center center;
+	transform: translate(50%,50%); */
+	left: 50px;
+	top: 50px;
+}
+
+#leftPan {
+	left: -22px;
+	height: 0px;
+}
+#rightPan {
+	right: -22px;
+	height: 0px;
+}
+.scalePans {
+	margin-top: -7.5px;
+	/* margin-bottom: -100px; */
+	transform-origin: center top;
+	/* transform: rotate(30deg); */
+}
+#test {
+	width: 10px;
+}
+::-webkit-scrollbar {
+	display: none;
+}
